@@ -14,7 +14,7 @@ img{
     
 }
 .row{
-    height: 400px;
+    
     margin-bottom: 5px;
 }
 .second-row{
@@ -51,4 +51,10 @@ img{
     .third-roe-second-container{
         grid-template-columns: repeat(1,1fr);
     }
+}
+@media screen and (min-width: 577px) {
+    .row{
+        height: 400px;
+    }
+    
 }
