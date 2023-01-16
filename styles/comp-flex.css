@@ -44,3 +44,11 @@ img{
 .third-row>div{
     flex: 1;
 }
+@media screen and (max-width: 576px) {
+    .second-row, .third-row{
+        flex-direction: column;
+    }
+    .third-roe-second-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
