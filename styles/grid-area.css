@@ -5,6 +5,12 @@
 .nav{
     grid-area: nav;
 }
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
 .main{
     grid-area: main;
 }
